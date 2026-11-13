@@ -1,0 +1,70 @@
+{
+ "classes": [
+  "glioma",
+  "meningioma",
+  "notumor",
+  "pituitary"
+ ],
+ "accuracy": 0.8725,
+ "test_size": 1600,
+ "train_counts": {
+  "glioma": 1400,
+  "meningioma": 1400,
+  "notumor": 1400,
+  "pituitary": 1400
+ },
+ "confusion": [
+  [
+   273,
+   95,
+   25,
+   7
+  ],
+  [
+   7,
+   362,
+   15,
+   16
+  ],
+  [
+   0,
+   2,
+   397,
+   1
+  ],
+  [
+   2,
+   34,
+   0,
+   364
+  ]
+ ],
+ "per_class": {
+  "glioma": {
+   "precision": 0.9680851063829787,
+   "recall": 0.6825,
+   "f1": 0.8005865102639296,
+   "support": 400
+  },
+  "meningioma": {
+   "precision": 0.7342799188640974,
+   "recall": 0.905,
+   "f1": 0.8107502799552072,
+   "support": 400
+  },
+  "notumor": {
+   "precision": 0.9084668192219679,
+   "recall": 0.9925,
+   "f1": 0.948626045400239,
+   "support": 400
+  },
+  "pituitary": {
+   "precision": 0.9381443298969072,
+   "recall": 0.91,
+   "f1": 0.9238578680203046,
+   "support": 400
+  }
+ },
+ "mean_conf_correct": 0.9170771359458011,
+ "mean_conf_wrong": 0.7277443915897724
+}
