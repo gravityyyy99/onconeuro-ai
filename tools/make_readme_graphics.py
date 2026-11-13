@@ -89,7 +89,7 @@ def banner():
     b += f'<rect x="60" y="150" width="0" height="0"/>'
     b += text(60, 130, "OncoNeuro AI", 66, INK, 500, family=SERIF)
     b += text(62, 175, "A brain MRI classifier that shows its work", 24, ACC2)
-    b += text(62, 215, "ResNet-18 transfer learning  +  Grad-CAM heatmaps  +  a Claude-style Streamlit site", 16, MUTED)
+    b += text(62, 215, "ResNet-18 transfer learning  +  Grad-CAM heatmaps  +  a multi-page Streamlit site", 16, MUTED)
     chips = [("Python", 62), ("PyTorch", 160), ("Grad-CAM", 262), ("Streamlit", 370)]
     for name, x in chips:
         w = 18 + 9 * len(name)
