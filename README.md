@@ -4,6 +4,7 @@
 
 <br>
 
+[![Live demo](https://img.shields.io/badge/Live%20demo-onconeuro--ai.streamlit.app-ff4b4b?logo=streamlit&logoColor=white)](https://onconeuro-ai.streamlit.app/)
 ![Python](https://img.shields.io/badge/Python-3.11-3776ab?logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.15-ee4c2c?logo=pytorch&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.67-ff4b4b?logo=streamlit&logoColor=white)
@@ -13,6 +14,8 @@
 ![Not medical](https://img.shields.io/badge/NOT%20a%20medical%20tool-cannot%20diagnose-b3261e)
 
 ### An AI that sorts brain MRI pictures into four groups, then shows you *where it looked* to decide.
+
+## [Open the live app: onconeuro-ai.streamlit.app](https://onconeuro-ai.streamlit.app/)
 
 <img src="docs/img/tour.gif" alt="A tour of the OncoNeuro AI website" width="780">
 
@@ -104,7 +107,7 @@ so you can notice when it is right for the wrong reasons, and I report where it 
 
 ## 2. See it in action
 
-> A hosted version is being set up. Until then, run it on your own computer with three commands: see [Run it yourself](#12-run-it-yourself).
+> **Live app: [https://onconeuro-ai.streamlit.app/](https://onconeuro-ai.streamlit.app/)**. Open it, click a sample scan, and look at the heatmap. If the app has been idle it may need a few seconds to wake up. Prefer to run it yourself? See [Run it yourself](#12-run-it-yourself).
 
 <div align="center">
 
@@ -422,7 +425,9 @@ timeline
 
 ## 12. Run it yourself
 
-**Open the website on your computer**
+**Just want to try it?** Use the live app: https://onconeuro-ai.streamlit.app/
+
+**Or open the website on your computer**
 
 ```bash
 git clone https://github.com/gravityyyy99/onconeuro-ai.git
